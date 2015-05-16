@@ -1,0 +1,22 @@
+*.iml
+
+## Directory-based project format:
+.idea/
+
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+
+node_modules
+tools/typings
+!tools/typings/tsd.d.ts
+!tools/typings/expenseApp.d.ts
+**/bower_packages
+
+# all generated JS
+src/js
+src/app/**/*.js
+src/app/**/*.js.map
