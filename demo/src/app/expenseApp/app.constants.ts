@@ -6,18 +6,18 @@
 module expenseApp {
 
     var settings: shared.IAdalSettings = {
-        tenant: '30497b7c-5fa6-4284-ba4d-6cece5689dc0',
-        clientId: '59f4d76d-2808-4bbb-8d48-0a0f017fea8c',
-        baseSPUrl: 'https://pso365apis01.sharepoint.com/sites/expenseApp/ngconf/_api/',
-        baseOneDriveUrl: 'https://pso365apis01-my.sharepoint.com/_api/v1.0/me',
+        tenant: '4f67d3e0-6d7a-477b-8615-19d739feb4ee',
+        clientId: '53787802-106b-468a-ad31-73febd68bfcf',
+        baseSPUrl: 'https://acio36504.sharepoint.com/sites/ExpenseManager/ngconf/_api/',
+        baseOneDriveUrl: 'https://acio36504-my.sharepoint.com/_api/v1.0/me',
         aadEndpoints:
             {
                 /* 'target endpoint to be called': 'target endpoint's resource ID'  */
 
                 // sharepoint site containing lists
-                'https://pso365apis01.sharepoint.com/sites/expenseApp/ngconf/_api/': 'https://pso365apis01.sharepoint.com',
+                'https://acio36504.sharepoint.com/sites/ExpenseManager/_api/': 'https://acio36504.sharepoint.com',
                 // o365 files api
-                'https://pso365apis01-my.sharepoint.com/_api/v1.0/me':'https://pso365apis01-my.sharepoint.com/'
+                'https://acio36504-my.sharepoint.com/_api/v1.0/me':'https://acio36504-my.sharepoint.com/'
             }
     };
 
